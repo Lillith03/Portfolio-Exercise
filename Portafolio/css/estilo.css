@@ -1,0 +1,128 @@
+.container {
+    background: radial-gradient(circle, rgb(151, 92, 141) 0%, rgb(135, 76, 114) 22%, rgb(37, 27, 55) 88%);
+    width: 970px;
+    outline: 1px solid black;
+    margin: 0 auto;
+}
+
+header {
+    height: 50px;
+    outline: black solid 1px;
+    background-color: #f9f9f9;
+}
+
+header h1 {
+    font-family: "Comic Sans", "ITC Kristen", "KG Ray Of Sunshine", fantasy;
+    display: inline-block;
+    width: 55%;
+    position: relative;
+    left: 20px;
+    bottom: 15px;
+}
+
+header h2 {
+    font-family: Helvetica, Arial, sans-serif;
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    bottom: 18px;
+}
+
+.img-photo {
+    width: 402px;
+    margin-top: 38px;
+    margin-left: 20px;
+    border: 5px solid gray;
+}
+
+.about {
+    display: inline-block;
+    width: 482px;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    color: white;
+    padding: 10px;
+    background: rgb(180, 180, 183);
+    background: linear-gradient(0deg, rgba(180, 180, 183, 1) 20%, rgba(135, 134, 147, 1) 50%, rgba(180, 180, 183, 1) 80%);
+}
+
+.recuadro_blanco {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: rgb(254, 254, 254);
+    background: linear-gradient(90deg, rgba(254, 254, 254, 1) 0%, rgba(218, 203, 217, 1) 100%);
+    height: 192px;
+}
+
+.recuadro_blanco p {
+    /*solo al parrafo que se encuentra en el recuadro blanco*/
+    margin-bottom: 20px;
+}
+
+.proyecto {
+    display: inline-block;
+    width: 290px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background: rgb(254, 254, 254);
+    background: linear-gradient(90deg, rgba(254, 254, 254, 1) 0%, rgba(218, 203, 217, 1) 100%);
+    ;
+    height: 620px;
+    vertical-align: top;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+.proyecto img {
+    width: 100%;
+}
+
+.proyecto p {
+    padding: 0px 10px;
+}
+
+.tecnologias {
+    position: absolute;
+    bottom: 0;
+}
+
+.logos {
+    padding: 5px 10px;
+}
+
+.logos img {
+    width: 40px;
+}
+
+.tecnologias button {
+    background-color: green;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+footer img {
+    width: 12px;
+}
+
+.p01 {
+    margin-bottom: 20px;
+}
